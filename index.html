@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Chat Application</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <div class="topBar">
+    <div class="logo">
+      <img src="./assets/logo-chat.png" alt="Chat_app">
+      <h1>Chat App</h1>
+    </div>
+    <div class="nav">
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Dev</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </div>
+  <div class="mainBody">
+    <div class="headerName">
+      <div class="groupHead">
+        <img src="./assets/logo-chat.png" alt="Group_Profile_Pic">
+        <h2>Group 1</h2>
+      </div>
+      <div class="groupSettings">
+        :::
+      </div>
+    </div>
+    <div class="chatBox">
+
+      <div class="chats">
+        <div class="messages">
+          <p>This is a message</p>
+        </div>
+        <div class="messages">
+          <p>This is a message</p>
+        </div>
+        <div class="messages myMessages">
+          <p>This is a message</p>
+        </div>
+        <div class="messages myMessages">
+          <p>This is a message</p>
+        </div>
+        <div class="messages">
+          <p>This is a message</p>
+        </div>
+        <div class="messages myMessages">
+          <p>This is a message</p>
+        </div>
+        <div class="newMessageTag">
+          <hr />
+          <div>
+            <p>New Messages</p>
+          </div>
+        </div>
+        <div class="messages">
+          <p>This is a message</p>
+        </div>
+        <div class="messages">
+          <p>This is a message</p>
+        </div>
+      </div>
+
+      <div class="messageBox">
+        <input placeholder="Type a message" aria-label="Type a message" title="Type a message" type="text" name=""
+          id="textMessage">
+        <input type="button" value=">">
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+  <script defer src="script.js"></script>
+
+
+</body>
+
+</html>
